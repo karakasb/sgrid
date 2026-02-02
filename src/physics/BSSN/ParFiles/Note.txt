@@ -1,0 +1,18 @@
+from https://arxiv.org/abs/0911.0973
+====================================
+*All BSSN runs that were done with sgrid in 2009 were unstable.
+*The problem seems to have been the primitive radiative outer boundary
+ conditions used.
+
+BSSN parfiles:
+==============
+
+KS_Yo_radanaHarmNoDetgX2o3_R.par
+--------------------------------
+*parfile used to make Fig.2 of https://arxiv.org/abs/0911.0973
+*it runs better with more radial resolution
+
+KS_Yo_radanaHarmNoDetgX2o3Bou2.par
+----------------------------------
+*parfile used to make Fig.6 of https://arxiv.org/abs/0911.0973
+*it runs better if outer boundary is further away
